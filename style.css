@@ -108,9 +108,8 @@ h2 a:hover{
     padding-top: 8%;
 }
 .aboutme img{
-    width: 650px;
-    height: 700px;
-    margin-top: 10%;
+    width: 550px;
+    height: 600px;
     padding-left: 10%;
     padding-right: 10%;
     border-radius: 20% 20% 20% 20%;
@@ -152,7 +151,7 @@ span{
 }
 .social{
     display: flex;
-    padding-left: 100px;
+    padding-left: 120px;
     padding-top: 30px;
 }
 .social img{
