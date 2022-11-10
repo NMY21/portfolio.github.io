@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+Thai&display=swap');
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    background-color: rgb(177, 177, 177);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(219, 187, 58);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(240, 229, 187);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(53, 41, 41);
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/*----------------navbar------------------*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    z-index: 1;
+}
+a.nun{
+    text-decoration: none;
+    margin: 10px 70px;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+a.nun:hover{
+    color: rgb(224, 185, 55);
+}
+.item{
+    display: flex;
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+    margin-right: 70px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s; 
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover{
+    color: rgb(224, 185, 55);
+}
+/*-----------------home-------------------*/
+.container-home{
+    max-width: auto;
+    max-height: 50vh;
+    text-align: start;
+    margin: 20% 2% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding-left: 20%;
+    color: white;
+    flex-wrap: wrap;
+}
+h2 a{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(224, 185, 55);
+    text-shadow: 2px 2px 2px red;
+    transition: 0.4s;
+}
+h2 a:hover{
+    color: red;
+}
+
+/*------------------about----------------*/
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-left: 100px;
+    padding-right: 50px;
+    justify-content: space-around;
+}
+.about-infor{
+    width: 55%;
+    padding-top: 8%;
+}
+.aboutme img{
+    width: 650px;
+    height: 700px;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20% 20% 20% 20%;
+}
+.aboutme h1{
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+}
+.line{
+    margin-top: 4px;
+    height: 10px;
+    width: 50%;
+    background: rgb(190, 168, 93);
+}
+.aboutme h3{
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.aboutme p{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 30px;
+}
+span{
+    color: rgb(224, 185, 55);
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px red;
+}
+.img-me{
+    padding-left: 5%;
+    padding-top: 8%;
+}
+.social{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.social img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.sc-infor{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.skill h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+    text-align: center;
+    
+}
+.contect .cont h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+    text-align: center;
+    padding-left: 10px;
+    
+}
+.img-skill{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    padding-top: 20px;
+}
+.contect-infor{
+    padding-top: 5%;
+
+}
+.contect-infor h2{
+    margin-left: 3%;
+    width: 100%;
+    margin-top: 3%;
+}
+.tel,.mail,.address{
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.tel img,.mail img,.address img{
+    width: 50px;
+}
+
+/*-------------------education------------------*/
+.education{
+    padding-top: 15%;
+}
+.education h1{
+    padding-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+}
+.school-logo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-right: 15%;
+    align-items: center;
+
+}
+.school-logo img{
+    width: 40%;
+    margin: 40px;
+    box-shadow: 5px 5px rgb(207, 185, 62);
+    border-radius: 100%;
+}
+.school1{
+    padding-left: 2.5%;
+}
+.school1, .school2, .school3{
+    display: flex;
+    color: white;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+}
+.infor{
+    padding-top: 12%;
+    text-align: start;
+
+}
+.infor h2{
+    color: rgb(224, 185, 55);
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px red;
+}
+.infor h3{
+    font-size: 1.5rem;
+}
+/*----------------work------------------*/
+.work{
+    padding-top: 10%;
+}
+.work h1{
+    font-size: 8rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: white;
+    width: 100%;
+    padding-right: 10%;
+    padding-top: 8%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+    text-align: end;
+}
+.graphic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 4%;
+    padding-left: 10%;
+    align-items: center;
+}
+.graphic1, .graphic2{
+    display: flex;
+    margin: 50px;
+}
+.graphic1 img, .graphic2 img{
+    margin-left: 8%;
+    width: 55%;
+    box-shadow: 5px 5px rgb(194, 194, 194);
+}
+.graphic1 h3, .graphic2 h3{
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    padding-top: 20%;
+    text-align: start;
+    width: 100%;
+    text-transform: capitalize;
+}
+.youtube{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 4%;
+    padding-left: 10%;
+    align-items: center;
+}
+.youtube h3{
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin-top: 3%;
+    text-transform: capitalize;
+}
+.flex-clip{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clip1, .clip2{
+    margin-top: 4%;
+}
+.clip{
+    margin-left: 3%;
+    display: block;
+}
+
+/*--------------------activities------------------*/
+.activities{
+    padding-top: 10%;
+}
+.activities h1{
+    font-size: 8rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: white;
+    width: 100%;
+    padding-top: 8%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+}
+.seed-con{
+    display: flex;
+    justify-content: center;
+}
+.seed{
+    padding-top: 80px;    
+}
+.imoji{
+    font-size: 10rem;
+    text-align: center;
+}
+.seed-clip{
+    width: 60vh;
+    height: auto;
+}
+.act-infor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.activities h2{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    text-transform: capitalize;
+}
+.act-img{
+    height:350px;
+    width:550px;
+    padding-top: 30px;
+}
+/*-------------------certificate------------------*/
+.certificate h1{
+    font-size: 5rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: white;
+    width: 100%;
+    padding-top: 8%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgb(170, 170, 169);
+}
+.pic{
+    height:350px;
+    width:500px;
+    padding-top: 20px;
+  }
+  .flex{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .cer h2{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-transform: capitalize;
+  }
+  .con{
+    margin-top:80px;
+    padding-bottom: 100px;
+  }
+
+@media(max-width:1570px){
+    .container-home{
+        padding-left: 10%;
+    }
+    .aboutme h1{
+        font-size: 5rem;
+    }
+    .aboutme p{
+        font-size: 1.5rem;
+    }
+    span{
+        font-size: 2rem;
+    }
+    .social{
+        padding-top: 10px;
+    }
+    .aboutme img{
+        width: 550px;
+        height: 450px; 
+    }
+    .work h1{
+        font-size: 6rem;
+    }
+    .graphic{
+        font-size: 3rem;
+    }
+    .graphic1 h3, .graphic2 h3{
+        font-size: 2rem; 
+    }
+
+    .education h1{
+        font-size: 6rem;
+    }
+    .school-logo img{
+        width: 35%;
+        margin: 35px;
+    }
+    .activities h1{
+        font-size: 6rem;
+    }
+    .act-img{
+        height:270px;
+        width:450px;
+    }
+    .activities h2{
+        font-size: 2rem;
+    }
+    .imoji{
+        font-size: 8rem;
+    }
+    .seed-clip{
+        width: 60vh;
+        height: auto;
+    }
+    .certificate h1{
+        font-size: 6rem;
+    }
+    .pic{
+        height:300px;
+        width:450px;
+        padding-top: 20px;
+      }
+}
