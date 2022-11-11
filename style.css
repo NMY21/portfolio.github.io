@@ -82,7 +82,7 @@ ul li a:hover{
     color: white;
     flex-wrap: wrap;
 }
-h2 a{
+.container-home h2 a{
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
