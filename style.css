@@ -474,3 +474,11 @@ span{
         padding-top: 20px;
       }
 }
+@media(max-width:1370px){
+    .container-home{
+        margin: 30% 2% ;  
+    }    
+    .graphic1 h3, .graphic2 h3{
+        font-size: 1.7rem; 
+    }
+}
