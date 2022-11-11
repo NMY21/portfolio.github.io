@@ -211,7 +211,10 @@ span{
 .tel img,.mail img,.address img{
     width: 50px;
 }
-
+.tel h2{
+    text-decoration: none;
+    color: white;
+}
 /*-------------------education------------------*/
 .education{
     padding-top: 15%;
