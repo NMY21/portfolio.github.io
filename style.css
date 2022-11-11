@@ -457,7 +457,7 @@ span{
         font-size: 6rem;
     }
     .activities h2{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .imoji{
         font-size: 8rem;
@@ -477,10 +477,35 @@ span{
 }
 @media(max-width:1370px){
     .container-home{
-        margin: 30% 2% ;  
+        margin: 25% 2% ;  
     }    
     .graphic1 h3, .graphic2 h3{
-        font-size: 1.7rem; 
+        font-size: 1.5rem; 
     }
-    
+    .skill h2{
+        font-size: 50px;
+    }
+    .contect .cont h2{
+        font-size: 50px;
+    }
+    .logo{
+        width: 240px;
+    }
+    .tel img,.mail img,.address img{
+        width: 50px;
+    }
+    .youtube h3{
+        font-size: 1.7rem;
+    }
+    .act-img{
+        height:200px;
+        width:400px;
+    }
+    .cer h2{
+        font-size: 1rem;
+    }
+    .pic{
+        height:240px;
+        width:400px;
+    }
 }
