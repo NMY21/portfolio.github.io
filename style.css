@@ -457,7 +457,7 @@ span{
         font-size: 6rem;
     }
     .activities h2{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .imoji{
         font-size: 8rem;
@@ -499,13 +499,20 @@ span{
     }
     .act-img{
         height:200px;
-        width:400px;
+        width:440px;
     }
     .cer h2{
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
     .pic{
         height:220px;
         width:400px;
+    }
+    .graphic1 img, .graphic2 img{
+        margin-left: 10%;
+        width: 48%;
+    }
+    .graphic{
+        font-size: 3rem;
     }
 }
