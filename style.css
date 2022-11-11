@@ -112,7 +112,7 @@ h2 a:hover{
     height: 600px;
     padding-left: 10%;
     padding-right: 10%;
-    border-radius: 20% 20% 20% 20%;
+    border: 5px solid whitesmoke;
 }
 .aboutme h1{
     text-transform: uppercase;
